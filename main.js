@@ -5,3 +5,8 @@ $(document).ready(function () {
     });
 
 });
+
+
+$(".top-nav ul li a").click(function() {
+    $(".top-nav").hide();
+});
