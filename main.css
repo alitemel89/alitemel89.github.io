@@ -8,7 +8,8 @@
 html {
     font-size: 10px;
     font-family:  "Roboto", sans-serif;
-    color: #eee;
+    color:#eee
+    
 }
 
 body {
@@ -33,7 +34,7 @@ a {
 
 p {
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: bold;
 
 }
 
@@ -81,7 +82,7 @@ img {
     position: relative;
     margin-bottom: 1rem;
     font-size: 3.5rem;
-    margin-top: 20rem;
+    margin-top: 5rem;
 
 }
 
@@ -179,7 +180,7 @@ li {
 }
 
 .bar {
-    background: linear-gradient(to left, white, rgb(182, 209, 29));
+    background: snow;
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -212,28 +213,22 @@ li {
 }
 
 
-.bar.half {
-
-    width: 80%;
-}
 
 
-.bar.end {
-    
-    width: 60%;
-    
-    
-}
+
+
 
 .landing-text h1 {
 
     font-size:12rem;
     font-family: 'Playfair Display', serif;
-    background: linear-gradient(to top, white, rgb(182, 209, 29));
+    background: snow;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding:1rem;
     user-select: none;
+    font-weight: 400;
+    
 }
 
 .landing-text {
@@ -249,7 +244,7 @@ li {
 .landing-text h6 {
 
     font-size:2rem;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 100px;
 }    
@@ -259,11 +254,17 @@ li {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
     
+    background: url(/images/aboutbg.jpeg);
+    background-size: cover;
+      
     
 }
+
+#about {
+    width: 100%;
+}
+
 
 .about-heading h1{
     font-size: 10rem;
@@ -279,6 +280,8 @@ li {
     color: rgb(239, 255, 151);
     font-family: 'Playfair Display', serif;
     text-transform: lowercase;
+    font-weight: 800;
+    z-index: 200;
     
 }
 
@@ -346,7 +349,7 @@ ul.nav-list {
 }
 
 .fa-linkedin-square:hover{
-    color: #4267b2;
+    color: snow;
     
      
 }
@@ -372,6 +375,7 @@ ul.nav-list {
     text-align: center;
     display: flex;
     display: table-cell;
+    
 
 }
 
@@ -382,9 +386,13 @@ ul.nav-list {
     align-items: center;
     padding: 2rem;
     
+    
 }
 
-
+.services {
+ 
+    background: url(/images/sitebg3.jpg);
+}  
 
 
 .skill h1{
@@ -420,61 +428,7 @@ ul.nav-list {
 /* End Services */
 
 /* Start portfolio */
-.portfolio-item{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
 
-}
-
-
-.portfolio-item:last-child{
-    
-    margin-bottom:0;
-}
-
-.portfolio-img {
-    display: block;
-    width:50%;
-    margin: 0 auto;
-}
-
-#portfolio h1 {
-    font-size: 3.5rem;
-}
-
-
-.portfolio-description h1 {
-    font-size:3rem;
-    font-weight: 300;
-    margin: 1rem 0;
-
-}
-.portfolio-description h6 {
-    font-size:1.5rem;
-    font-weight: 300;
-    opacity: 0.3;
-    text-transform: uppercase;
-
-}
-
-.portfolio-description .cta{
-    display: inline-block;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #3883ff;
-    transition: color 650ms;
-
-
-}
-
-
-
-.portfolio-description .cta:hover{
-    color:#2f67cd;
-}
 /* End portfolio */
 
 
