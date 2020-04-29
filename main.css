@@ -70,9 +70,10 @@ img {
 
 .section-heading {
     text-align: center;
-    margin-bottom: 10rem
-    ;
+    margin-bottom: 5rem;
 }
+
+
 
 .section-heading h1 {
     text-align: center;
@@ -83,6 +84,7 @@ img {
     margin-bottom: 1rem;
     font-size: 3.5rem;
     margin-top: 5rem;
+    padding-top: 3rem;
 
 }
 
@@ -93,6 +95,8 @@ img {
     text-align: center;
 
 }
+
+
 
 /*.has-margin-right {
     margin-right: 5rem;
@@ -253,10 +257,10 @@ li {
 .about .container {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
     
-    background: url(/images/aboutbg.jpeg);
     background-size: cover;
+    backdrop-filter: blur(4px);
       
     
 }
@@ -371,10 +375,11 @@ ul.nav-list {
 /* Start Services */
 
 .my-skills {
-    margin-top: 5rem;
+    margin-top: 4rem;
     text-align: center;
     display: flex;
     display: table-cell;
+    
     
 
 }
@@ -385,20 +390,39 @@ ul.nav-list {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    
-    
+       
 }
 
-.services {
+
+#services {
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    margin-top: 20rem;
+}
+
+
+#experience {
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    margin-top: 20rem;
+}
+
+#contact {
+
+    margin-top: 20rem;
+}
+
+
+
  
-    background: url(/images/sitebg3.jpg);
-}  
 
 
 .skill h1{
     text-transform: uppercase;
     letter-spacing: 2px;
     margin:2rem -2px 2rem 0;
+    
+    
     
 
 }
@@ -428,7 +452,17 @@ ul.nav-list {
 /* End Services */
 
 /* Start portfolio */
-
+.technologies h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    margin-top: 5rem;
+    padding-top: 3rem;
+}
 /* End portfolio */
 
 
