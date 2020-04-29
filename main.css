@@ -90,9 +90,11 @@ img {
 
 
 .section-heading h6 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 300;
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    color:rgb(239, 255, 151);
 
 }
 
@@ -394,10 +396,17 @@ ul.nav-list {
 }
 
 
+.skill p{
+    color: #16162d;
+       
+}
+
+
 #services {
     background-size: cover;
     backdrop-filter: blur(4px);
     margin-top: 20rem;
+    
 }
 
 
@@ -415,12 +424,12 @@ ul.nav-list {
 
 
  
-
-
 .skill h1{
     text-transform: uppercase;
     letter-spacing: 2px;
     margin:2rem -2px 2rem 0;
+    color:#16162d;
+    font-weight: bold;
     
     
     
@@ -430,8 +439,8 @@ ul.nav-list {
 .icon-container {
     width:10rem;
     height: 10rem;
-    border: 3px solid rgb(239, 255, 151);
-    
+    border: 3px solid snow;
+    background-color: #16162d;
     display: flex;
     margin-bottom:2rem;
     transform: rotate(45deg);
@@ -441,7 +450,7 @@ ul.nav-list {
 
 
 .icon-container i{
-    color:  rgb(239, 255, 151);
+    color:  snow;
     transform: rotate(-45deg);
     font-size: 5rem;
     margin: auto;
