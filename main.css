@@ -335,9 +335,7 @@ ul.nav-list {
 }
 
 
-.about-details p {
-    color: #16162d;
-}
+
 
 
 
@@ -407,11 +405,7 @@ ul.nav-list {
 }
 
 
-.skill p{
-    color: #16162d;
-    text-align: justify;
-       
-}
+
 
 
 #services {
@@ -500,6 +494,9 @@ ul.nav-list {
     list-style: none;
     text-align: left;
     width: 70%;
+    background-color: rgba(17, 54, 63, 0.5);
+    
+    
 
 
 }
@@ -509,7 +506,7 @@ ul.nav-list {
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: rgb(239, 255, 151);
+    color: #16162d;
     opacity: .8;
     
    
@@ -564,10 +561,7 @@ ul.nav-list {
 
 }
 
-.timeline ul p {
-    color: #16162d;
 
-}
 
 
 
