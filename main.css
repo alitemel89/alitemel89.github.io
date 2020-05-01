@@ -263,13 +263,16 @@ li {
     margin-left:  8rem;
     margin-right:  8rem;
     background-size: cover;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(2px);
+    background-color: rgba(17, 54, 63, 0.5);
+    border-radius: .8rem; 
       
     
 }
 
 #about {
     width: 100%;
+    
 }
 
 
@@ -300,6 +303,7 @@ li {
     line-height: 0;
     margin-bottom: 6rem;
     
+    
 }
 
 .profile-img img{
@@ -308,6 +312,8 @@ li {
     display: inline-flex;
     width: 90%;
     border-radius: 25%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
    
 }
 
@@ -331,7 +337,7 @@ ul.nav-list {
     margin-left: 4rem;
     margin-right: 4rem;
     text-align: justify;
-    mar
+    
 }
 
 
@@ -400,19 +406,20 @@ ul.nav-list {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    
+    background-size: cover;
+       
        
 }
 
 
 
-
-
 #services {
-    background-size: cover;
-    backdrop-filter: blur(4px);
+    
     margin-left: 8rem;
     margin-right: 8rem;
+    backdrop-filter: blur(2px);
+    background-color: rgba(17, 54, 63, 0.5);
+    border-radius: .8rem; 
     
 }
 
@@ -441,6 +448,7 @@ ul.nav-list {
     
     
     
+    
 
 }
 
@@ -452,6 +460,7 @@ ul.nav-list {
     display: flex;
     margin-bottom:2rem;
     transform: rotate(45deg);
+    margin-top: 1rem;
 
 
 }
