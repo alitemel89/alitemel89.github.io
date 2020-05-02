@@ -681,6 +681,7 @@ label {
 }
 
 
+
 /* End footer */
 
 /* Start animation */
@@ -692,11 +693,38 @@ label {
         box-shadow: 0 0 0 2rem rgba(239, 255, 151,0);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(239, 255, 151,0;
+        box-shadow: 0 0 0 0 rgba(239, 255, 151,0);
     }
 
-
+}
 /* End animation */
 
+/* Start technologies */
+.technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    background: blue;
+    font-size: 5rem;
 
+}
+
+.icon-technologies h6 {
+   
+    font-size: 1.6rem;
+    display: block;
+
+}
+
+
+
+
+
+
+
+/* End technologies */
 
