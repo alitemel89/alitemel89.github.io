@@ -700,26 +700,64 @@ label {
 /* End animation */
 
 /* Start technologies */
-.technologies {
-    display: flex;
-    justify-content: center;
+
+
+  
+
+.technologies .container{
+   
+    
     align-items: center;
-    position: relative;   
-    flex-direction: row;
+    justify-content: center;  
+    margin-left:  8rem;
+    margin-right:  8rem;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    background-color: rgba(17, 54, 63, 0.5);
+    border-radius: .8rem; 
+    
+
+}
+
+.technologies h1 {
+    margin-top: 1rem;
+    
+}
+
+.icon-technologies .icon {
+    
+    padding: 0 4rem;
     justify-content: center;
-    align-items: center;  
-    background: blue;
-    font-size: 5rem;
+    display: table-cell;
+    align-items: center;
+    display: inline-block;
+    
+    
+    
+}
+
+.icon-technologies {
+   
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 8rem;
+    align-items: center;
+    justify-content: center;  
+    position: relative;
+    padding: 0 auto;
+    
+    
 
 }
 
 .icon-technologies h6 {
-   
+    margin-top: 1.5rem;
     font-size: 1.6rem;
-    display: block;
+    opacity: .7;
+    
 
 }
-
 
 
 
