@@ -474,9 +474,33 @@ ul.nav-list {
     transform: rotate(-45deg);
     font-size: 5rem;
     margin: auto;
-
+    
 
 }
+
+    
+
+
+
+i.fas.fa-code:hover{
+    -webkit-transition: -webkit-transform .7s;
+    -webkit-transform: rotate(315deg);    
+}
+
+i.fas.fa-water:hover{
+    -webkit-transition: -webkit-transform .7s;
+    -webkit-transform: rotate(315deg);   
+}
+
+i.fas.fa-layer-group:hover{
+    -webkit-transition: -webkit-transform .7s;
+    -webkit-transform: rotate(315deg);   
+}
+
+
+
+
+
 
 /* End Services */
 
@@ -713,7 +737,7 @@ label {
     margin-right:  8rem;
     background-size: cover;
     backdrop-filter: blur(2px);
-    background-color: rgba(17, 54, 63, 0.5);
+    
     border-radius: .8rem; 
     
 
@@ -731,7 +755,7 @@ label {
     display: table-cell;
     align-items: center;
     display: inline-block;
-    
+
     
     
 }
@@ -760,7 +784,15 @@ label {
 }
 
 
+.icon:hover,
+.icon:focus{
 
+    -webkit-text-fill-color: #16162d;
+    transform: scale(1.1);
+    transition: transform .5s;
+    
+        
+}
 
 
 
