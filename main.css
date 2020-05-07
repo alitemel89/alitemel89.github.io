@@ -875,7 +875,7 @@ label {
 
 
 
-    .nav-list {
+    ul.nav-list {
         flex-direction: column;
     }
 
@@ -886,7 +886,7 @@ label {
 
 }
 
-@media screen and (min-width: 360px) and (max-width:425px) {
+@media screen and (min-width: 320px) and (max-width:425px) {
 
     #services {
         width:360px;
@@ -913,12 +913,32 @@ label {
         top: 1.5rem;
     }
 
-    .about .container {
-        margin: auto;
+
+   .about-details p{
+       margin-right: 2rem;
+       justify-content: center;
+   }
+
+   .about .container {
+       display: contents;
+   }
+
+    .profile-img img {
+        width: 50%;
     }
 
+    .about-heading h1 {
+        margin-left: -5rem;
+    }
 
-  
-   
+   ul.nav-list{
+        margin-left: -2rem;
+   }
+
+   .social-media .nav-list {
+        display: -webkit-inline-box;
+        margin-left: 4rem;
+   }
+
 
 }
