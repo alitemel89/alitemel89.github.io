@@ -859,6 +859,10 @@ label {
         
     }
 
+    .social-media .nav-list {
+        display: -webkit-inline-box;
+        margin-left: 4rem;
+   }
 
 
     li {
