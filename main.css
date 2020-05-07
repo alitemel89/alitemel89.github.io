@@ -803,95 +803,8 @@ label {
 
 /* Media queries */
 
-@media screen and (max-width: 767px) {
-    body { 
-        background: url("images/sitebg4.jpeg") no-repeat center fixed;
-        background-size: cover;        
-    }
 
-    .landing-text h1{
-        font-size: 12rem;
-    }
-
-    .nav-list {
-        flex-direction: column;
-    }
-
-    li{
-        display: contents;
-        justify-content: center;
-    }
-
-    .nav-link {
-        font-size: 4.5rem;
-    }
-
-    .about-heading h1{
-        font-size: 8rem;
-    }
-
-    .section-heading h1 {
-        font-size: 3rem;
-    }
-
-    .about-details .nav-list{
-        flex-direction: column;
-    }
-
-    .about-details li {
-        margin: 0 2rem;
-
-    }
-
-    .icon-container i{
-        font-size: 4rem;
-    }
-
-    .timeline ul {
-        margin: auto;
-
-    }
-
-    .about .container {
-        display: block;
-      
-        
-    }
-
-    .profile-img img {
-        margin-left: 4rem;
-        margin-right: 4rem;
-        display: inline-flex;
-        width: 50%;
-        border-radius: 25%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    ul.nav-list {
-        list-style: none;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-    }
-
-
-    .social-media i {
-        font-size: 4rem;
-        transition: color 650ms;
-        justify-content: space-between;
-        padding-right: 1rem;
-        margin-bottom: -.5rem;
-    }
-
-
-
-}
-
-@media screen and (max-width: 1160px) and (min-width:768px) {
+@media screen and (max-width: 1160px)  {
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
         background-size: cover;        
@@ -919,37 +832,39 @@ label {
         display: flex;
     }
 
-
+ 
   
  
 }
 
 
-@media screen and (max-width: 768px) and (min-width:600px) {
+@media screen and (max-width: 767px) {
 
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
         background-size: cover;        
     }
 
-    .social-media .nav-list {
-        margin-left:4rem; 
-        padding-bottom: -1rem;
-    }
 
-    .social-media {
+
+    .social-media i {
         
         padding-bottom: 2rem;
+        
     }
 
-    .my-skills{
-        display: inline-flex;
+    .nav-list .social-media {
+        flex-direction: row;
+    }
+
+    .my-skills {
+        display: inline;
     }
 
 
 }
 
-@media screen and (max-width: 600px) and (min-width:425px) {
+@media screen and (max-width: 425px) {
 
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
