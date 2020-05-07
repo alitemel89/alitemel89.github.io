@@ -770,6 +770,7 @@ label {
     justify-content: center;  
     position: relative;
     padding: 0 auto;
+    margin-top: 5rem;
     
     
 
@@ -802,7 +803,7 @@ label {
 
 /* Media queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
         background-size: cover;        
@@ -920,9 +921,6 @@ label {
 
 
   
-
-
-
  
 }
 
@@ -963,8 +961,7 @@ label {
         background-size: cover; 
         align-items: center;
         justify-content: center;  
-        display: contents;
-      
+        display: contents; 
         
     }
 
