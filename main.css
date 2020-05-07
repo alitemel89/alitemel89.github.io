@@ -838,14 +838,20 @@ label {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
         background-size: cover;        
     }
 
+    .landing-text h1 {
+        font-size: 12rem;
+    }
 
+    .landing-text h6 {
+        font-size: 1.7rem;
+    }
 
     .social-media i {
         
@@ -853,8 +859,24 @@ label {
         
     }
 
-    .nav-list .social-media {
-        flex-direction: row;
+
+
+    li {
+        margin: 2rem 0;
+    }
+
+    .nav-link {
+        font-size: 4.5rem;
+    }
+
+    .about-heading {
+        font-size:8rem;
+    }
+
+
+
+    .nav-list {
+        flex-direction: column;
     }
 
     .my-skills {
@@ -864,33 +886,39 @@ label {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 360px) and (max-width:425px) {
 
-    body { 
-        background: url("images/sitebg4.jpeg") no-repeat center fixed;
-        background-size: cover;        
+    #services {
+        width:360px;
+        margin:0 auto;
+    }
+    
+  
+    .technologies h1 {
+        text-align: center;
+    }
+
+    .technologies .container {
+        margin: auto;
+    }
+ 
+
+    .section-heading {
+        text-align: center;
+    }
+
+    .menu-toggler {
+        height: 3rem;
+        right: 1.5rem;
+        top: 1.5rem;
     }
 
     .about .container {
-        display: block;
-        background-size: cover; 
-        align-items: center;
-        justify-content: center;  
-        display: contents; 
-        
-    }
-
-    .my-skills{
-        display: inline-flex;
-        
-    }
-
-    .social-media i{
-        padding-left: 4rem;
-        
+        margin: auto;
     }
 
 
-
+  
+   
 
 }
