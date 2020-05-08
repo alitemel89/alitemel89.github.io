@@ -926,6 +926,11 @@ label {
    .about-details p{
        
        justify-content: center;
+       backdrop-filter: blur(2px);
+       background-color: rgba(17, 54, 63, 0.5);
+       border-radius: .8rem; 
+       
+       
    }
 
    .about .container {
