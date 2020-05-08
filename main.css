@@ -257,7 +257,7 @@ li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 100px;
     position: relative;
-    bottom: -12rem;
+    bottom: -7rem;
 }    
 
 /* Start about */
@@ -321,8 +321,6 @@ li {
     margin-bottom: 2rem;
    
 }
-
-
 
 
 
@@ -850,7 +848,7 @@ label {
     }
 
     .landing-text h1 {
-        font-size: 12rem;
+        font-size: 8rem;
     }
 
     .landing-text h6 {
@@ -939,14 +937,21 @@ label {
         margin-left: -5rem;
     }
 
-   ul.nav-list{
-        margin-left: -2rem;
-   }
+
 
    .social-media .nav-list {
         display: -webkit-inline-box;
         margin-left: 4rem;
    }
+   
+   .landing-text h1 {
+        font-size: 8rem;
+    }
+
+    .landing-text h6 {
+        font-size: 1.7rem;
+        margin-bottom: 28px;
+    }
 
 
 }
