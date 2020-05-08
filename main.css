@@ -18,10 +18,12 @@ body {
     height: 100%;
     background: url("images/sitebg4.jpeg") no-repeat center fixed;
     background-size: cover;
-    
-    
-    
-    
+      
+}
+
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 
@@ -545,7 +547,7 @@ i.fas.fa-layer-group:hover{
     font-weight: bold;
     margin-bottom: 1rem;
     color: #16162d;
-    opacity: .8;
+    
     
    
     
