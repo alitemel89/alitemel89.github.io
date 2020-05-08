@@ -227,7 +227,7 @@ li {
 
 .landing-text h1 {
 
-    font-size:12rem;
+    font-size:10rem;
     font-family: 'Playfair Display', serif;
     background: snow;
     -webkit-background-clip: text;
@@ -254,6 +254,8 @@ li {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 100px;
+    position: relative;
+    bottom: -12rem;
 }    
 
 /* Start about */
