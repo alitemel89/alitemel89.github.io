@@ -923,9 +923,9 @@ label {
     }
 
 
-   .about-details p{
+   .about-details p {
        
-       justify-content: center;
+       
        backdrop-filter: blur(2px);
        background-color: rgba(17, 54, 63, 0.5);
        border-radius: .8rem; 
@@ -976,7 +976,7 @@ label {
 @media screen and (max-width: 360px) {
 
     .about-details p {
-        margin-right:4rem;
+        margin-left: -3rem;
     }
 
     .landing-text h1 {
@@ -992,7 +992,7 @@ label {
 @media screen and (max-width: 320px) {
 
    .about-details p {
-       margin-right: 4rem;
+       
        font-size: 1.8rem;
        justify-content: left;
        
