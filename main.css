@@ -900,7 +900,7 @@ label {
 
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
-        background-size: cover;        
+        background-size: auto; 
     }
 
     #services {
