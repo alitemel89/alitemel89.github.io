@@ -897,6 +897,11 @@ label {
 
 @media screen and (min-width: 320px) and (max-width:425px) {
 
+    body { 
+        background: url("images/sitebg4.jpeg") no-repeat center fixed;
+        background-size: cover;        
+    }
+
     #services {
         width:360px;
         margin:0 auto;
@@ -943,12 +948,14 @@ label {
 
     .about-heading h1 {
         margin-left: -5rem;
+        
     }
 
 
     .about-heading h6 {
         
         display:  table-cell; 
+        font-family:'Playfair Display' serif;
     
     }
 
@@ -961,6 +968,7 @@ label {
    
    .landing-text h1 {
         font-size: 7rem;
+        font-family: 'Playfair Display', serif;
     }
 
     .landing-text h6 {
@@ -975,6 +983,11 @@ label {
 
 @media screen and (max-width: 360px) {
 
+    body { 
+        background: url("images/sitebg4.jpeg") no-repeat center fixed;
+        background-size: cover;        
+    }
+
     .about-details p {
         margin-left: -3rem;
     }
@@ -986,10 +999,19 @@ label {
     .nav-link {
         font-size: 2.5rem;
     }
+
+    .about-heading h6 {
+        font-family: 'Playfair Display' serif;
+    }
 }
 
 
 @media screen and (max-width: 320px) {
+
+    body { 
+        background: url("images/sitebg4.jpeg") no-repeat center fixed;
+        background-size: cover;        
+    }
 
    .about-details p {
        
