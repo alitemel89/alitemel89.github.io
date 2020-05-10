@@ -905,7 +905,7 @@ label {
 
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
-        background-size: auto 425px;  
+        background-size: cover 425px;  
     }
 
     #services {
