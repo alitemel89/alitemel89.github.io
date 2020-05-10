@@ -852,7 +852,6 @@ label {
 
     .background-image { 
         background: url("images/sitebg6.jpg") no-repeat center;
-        background-attachment: fixed;
         background-size: cover !important;
         -o-background-size: cover;
         -moz-background-size: cover;
