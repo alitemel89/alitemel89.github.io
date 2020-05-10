@@ -834,7 +834,11 @@ label {
         display: flex;
     }
 
-
+    .my-skills {
+        display: block;
+      
+        
+    }
   
 
  
@@ -847,7 +851,8 @@ label {
 
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
-        background-size: cover;        
+        background-size: auto 1024px;  
+            
     }
 
     .landing-text h1 {
@@ -900,7 +905,7 @@ label {
 
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
-        background-size: cover;  
+        background-size: auto 768px;  
     }
 
     #services {
