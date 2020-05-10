@@ -852,7 +852,7 @@ label {
     body { 
         background-image: url("images/sitebg5.png");
         background-size: cover; 
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-attachment: fixed;
         -o-background-size: cover;
         -moz-background-size: cover;
