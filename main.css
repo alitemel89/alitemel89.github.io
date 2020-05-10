@@ -858,6 +858,7 @@ label {
         -moz-background-size: cover;
         -webkit-background-size: cover;
         background-position: top center;
+        position: absolute;
  
                  
     }
