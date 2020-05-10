@@ -851,7 +851,7 @@ label {
 
     body { 
         background: url("images/sitebg5.png") no-repeat center fixed;
-        background-size: auto 425px; 
+        background-size: cover 768px; 
            
             
     }
