@@ -850,16 +850,14 @@ label {
 @media screen and (max-width: 768px) {
 
 
-    body { 
-        background: url("images/sitebg6.jpg") no-repeat center center fixed;
+    #background-image { 
+        background-image: url("images/sitebg6.jpg") no-repeat center center fixed;
         background-size: cover;
         -o-background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
         font-family: 'Playfair Display' serif;
-       
- 
-                 
+                    
     }
 
     .landing-text h1 {
