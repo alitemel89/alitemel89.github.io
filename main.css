@@ -850,10 +850,14 @@ label {
 @media screen and (max-width: 768px) {
 
     body { 
-        background: url("images/sitebg5.png") no-repeat center fixed;
-        background-size: cover 768px; 
-           
-            
+        background: url("images/sitebg5.png");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+                 
     }
 
     .landing-text h1 {
@@ -865,9 +869,7 @@ label {
     }
 
     .social-media i {
-        
         padding-bottom: 2rem;
-        
     }
 
     .social-media .nav-list {
