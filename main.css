@@ -842,8 +842,6 @@ label {
   
 
  
-  
- 
 }
 
 
@@ -853,6 +851,7 @@ label {
     body { 
         background: url("images/sitebg5.png") no-repeat center center fixed;
         background-size: cover;
+        background-attachment: scroll !important;
         -o-background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
@@ -860,7 +859,6 @@ label {
         width: 100%;
         height: 100%;
          
- 
                  
     }
 
