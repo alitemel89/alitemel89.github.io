@@ -806,7 +806,7 @@ label {
 /* Media queries */
 
 
-@media screen and (max-width: 1160px)  {
+@media only screen and (max-width: 1160px)  {
     body { 
         background: url("images/sitebg5.png") no-repeat center fixed;
         background-size: cover;        
@@ -845,13 +845,12 @@ label {
 }
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 
     body { 
         background: url("images/sitebg5.png") no-repeat center center fixed;
         background-size: cover;
-        background-attachment: scroll !important;
         -o-background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
@@ -906,7 +905,7 @@ label {
 
 }
 
-@media screen and (min-width: 320px) and (max-width:425px) {
+@media only screen and (min-width: 320px) and (max-width:425px) {
 
     body { 
         background: url("images/sitebg5.png") no-repeat center fixed;
@@ -992,7 +991,7 @@ label {
 
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) {
 
     body { 
         background: url("images/sitebg5.png") no-repeat center fixed;
@@ -1017,7 +1016,7 @@ label {
 }
 
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 
     body { 
         background: url("images/sitebg5.png") no-repeat center fixed;
