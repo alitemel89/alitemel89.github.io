@@ -853,7 +853,7 @@ label {
         background-image: url("images/sitebg5.png");
         background-size: cover; 
         background-repeat: repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         -o-background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
