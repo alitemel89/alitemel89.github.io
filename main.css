@@ -853,12 +853,10 @@ label {
         background: url("images/sitebg6.jpg");
         background-size: auto 768px;
         background-repeat: no-repeat;
-        background-attachment: scroll;
         -o-background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
-        background-position: top center;
-        position: absolute;
+        background-position: center;
         font-family: 'Playfair Display' serif;
  
                  
