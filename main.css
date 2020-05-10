@@ -850,7 +850,7 @@ label {
 @media screen and (max-width: 768px) {
 
     body { 
-        background: url("images/sitebg5.png");
+        background-image: url("images/sitebg5.png");
         background-size: cover; 
         background-repeat: no-repeat;
         background-attachment: fixed;
