@@ -851,7 +851,7 @@ label {
 
 
     .background-image { 
-        background-image: url("images/sitebg6.jpg") no-repeat center;
+        background: url("images/sitebg6.jpg") no-repeat center;
         background-attachment: fixed;
         background-size: cover !important;
         -o-background-size: cover;
