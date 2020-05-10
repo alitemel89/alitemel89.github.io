@@ -850,13 +850,15 @@ label {
 @media screen and (max-width: 768px) {
 
 
-    #background-image { 
-        background-image: url("images/sitebg6.jpg") no-repeat center center fixed;
-        background-size: cover;
+    .background-image { 
+        background-image: url("images/sitebg6.jpg") no-repeat center;
+        background-attachment: fixed;
+        background-size: cover !important;
         -o-background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;
         font-family: 'Playfair Display' serif;
+        
                     
     }
 
