@@ -851,7 +851,9 @@ label {
 
     body { 
         background: url("images/sitebg4.jpeg") no-repeat center fixed;
-        background-size: auto;  
+        background-size: auto 1024px; 
+        background-attachment: fixed; 
+        
             
     }
 
