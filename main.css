@@ -863,11 +863,10 @@ label {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+
   }
 
-    @supports (-webkit-overflow-scrolling: touch) {
-        .sp-page-builder .page-content #section-id-1564917511350{ background-attachment:scroll !important; }
-        }
+
 
     .landing-text h1 {
         font-size: 8rem;
