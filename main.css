@@ -910,6 +910,10 @@ label {
         display: inline;
     }
 
+    .section-heading h6 {
+        font-family: 'Playfair Display' serif;
+    }
+
 
 }
 
