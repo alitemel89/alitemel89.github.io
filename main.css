@@ -924,16 +924,22 @@ label {
 
 @media only screen and (min-width: 320px) and (max-width:425px) {
 
-    body { 
-        background: url("images/sitebg5.png") no-repeat center fixed;
-        background-size: cover;
-        -o-background-size: cover;
-        -moz-background-size: cover;
+    body:after{
+        content:"";
+        position:fixed; /* stretch a fixed position to the whole screen */
+        top:0;
+        height:100vh; /* fix for mobile browser address bar appearing disappearing */
+        left:0;
+        right:0;
+        z-index:-1; /* needed to keep in the background */
+        background: url("images/sitebg5.png") center center;
         -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         font-family: 'Playfair Display' serif;
-        width: 100%;
-        height: 100%;
-    }
+
+  }
 
     
 
