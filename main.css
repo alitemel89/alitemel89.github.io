@@ -861,6 +861,21 @@ label {
                  
     }
 
+    body:after{
+        content:"";
+        position:fixed; /* stretch a fixed position to the whole screen */
+        top:0;
+        height:100vh; /* fix for mobile browser address bar appearing disappearing */
+        left:0;
+        right:0;
+        z-index:-1; /* needed to keep in the background */
+        background: url("images/sitebg5.png") center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+  }
+
     @supports (-webkit-overflow-scrolling: touch) {
         .sp-page-builder .page-content #section-id-1564917511350{ background-attachment:scroll !important; }
         }
@@ -925,7 +940,7 @@ label {
         width: 100%;
         height: 100%;
     }
-    
+
     
 
     #services {
