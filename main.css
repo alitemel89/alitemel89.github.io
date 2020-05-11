@@ -150,12 +150,14 @@ li {
     font-family: 'Playfair Display', serif;
     font-size: 4rem;
     padding: 1rem;
+    
 
 }
 
 .nav-link:hover,
 .nav-link:focus{
     background: linear-gradient(to top, white,  rgb(182, 209, 29));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -232,6 +234,7 @@ li {
     font-size:10rem;
     font-family: 'Playfair Display', serif;
     background: snow;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding:1rem;
@@ -487,6 +490,7 @@ ul.nav-list {
 i.fas.fa-code:hover{
     -webkit-transition: -webkit-transform .5s;
     -webkit-transform: rotate(315deg) translateZ(0);    
+    
 }
 
 i.fas.fa-water:hover{
