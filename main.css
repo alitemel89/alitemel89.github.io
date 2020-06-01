@@ -288,6 +288,8 @@ li {
 
 #about {
     width: 100%;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
     
 }
 
@@ -434,6 +436,7 @@ ul.nav-list {
     backdrop-filter: blur(2px);
     background-color: rgba(17, 54, 63, 0.5);
     border-radius: .8rem; 
+    margin-top: 15rem;
     
 }
 
@@ -784,7 +787,8 @@ label {
     justify-content: center;  
     position: relative;
     padding: 0 auto;
-    margin-top: 5rem;
+    margin-top: 15rem;
+    margin-bottom: 5rem;
     
     
 
